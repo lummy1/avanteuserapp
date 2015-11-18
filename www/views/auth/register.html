@@ -1,0 +1,47 @@
+<ion-view view-title="Applicant Registration" hide-nav-bar="true">
+<ion-content  class="padding splash">
+<div style="margin-top:50px">
+
+</div>
+
+
+<div class="list">
+  <label class="item item-input">
+   <i class="icon ion-person placeholder-icon"></i>
+   <input type="text" placeholder="First Name" ng-model="user.firstname">
+ </label>
+ <div class="divider">
+ </div>
+ <label class="item item-input">
+  <i class="icon ion-person placeholder-icon"></i>
+  <!-- <i class="icon ion-email placeholder-icon"></i> -->
+  <input type="text" placeholder="Last Name" ng-model="user.lastname">
+</label>
+<div class="divider"> 
+</div>  
+<label class="item item-input">
+  <i class="icon ion-person placeholder-icon"></i>
+  <!-- <i class="icon ion-email placeholder-icon"></i> -->
+  <input type="text" placeholder="Other Name" ng-model="user.othername">
+</label>
+<div class="divider">  
+</div>
+<label class="item item-input">
+  <i class="icon ion-email placeholder-icon"></i>
+  <input type="text" placeholder="Email Address" ng-model="user.email">
+</label>
+<div class="divider">    
+</div>
+<label class="item item-input">
+  <i class="icon ion-locked placeholder-icon"></i>
+  <input type="password" placeholder="Password" ng-model="user.password">
+</label>
+</div>
+
+<div class="padding">
+  <a ng-click="register()" class="button button-full button-positive">Sign Up</a>
+
+</div>
+
+</ion-content>
+</ion-view>

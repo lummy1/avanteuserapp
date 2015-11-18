@@ -1,0 +1,49 @@
+<ion-view view-title="Login" hide-nav-bar="true">
+<ion-content  class="splash body padding">
+
+
+
+    <div class="row toplogin">
+        <div class="col col-20"></div>
+
+        <div class="col col-50">
+            <img class="branding" src="img/mobilelogo.png" width="350" height="150"/>
+
+        </div>
+        <div class="col col-20"></div>
+    </div>
+
+
+<div class="list">
+
+  <label class="item item-input">
+    <i class="icon ion-person placeholder-icon"></i>
+    <input type="text" placeholder="User Id" ng-model="login.userno">
+  </label>
+  <div class="divider">    
+  </div>
+  <label class="item item-input">
+    <i class="icon ion-locked placeholder-icon"></i>
+    <input type="password" placeholder="Password" ng-model="login.password">
+  </label>
+</div>
+
+<div class="padding">
+  <a ng-click="login()" ng-disabled="!login.userno || !login.password" class="button button-full button-positive">Login</a>
+  <!--<a style="" class="button button-assertive button-full" href="#/reg">Sign up</a>-->
+  </div>
+  <!--<div class="row">-->
+  <!--<div class="col col-33 ">-->
+  <!--<a href="#" class="" style="color:#FF00FF">Need Help?</a></div>-->
+  <!--<div class="col col-offset-33"></div>-->
+   <!---->
+  <!--<div class="col col-33 " > -->
+   <!---->
+  <!--<div class="col col-50 col-offset-50"> <a  href="#" class="" style="color:#ffff00">FAQ?</a></div>-->
+ <!---->
+  <!--</div>-->
+
+
+</ion-content>
+
+</ion-view>

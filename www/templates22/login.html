@@ -1,0 +1,38 @@
+<ion-view view-title="Login">
+<ion-content  class="padding splash">
+<div style="margin-top:100px">
+
+</div>
+
+    <div class="row toplogin">
+        <div class="col col-20"></div>
+
+        <div class="col col-50">
+            <img class="branding" src="img/mobilelogo.png" width="200" height="100"/>
+
+        </div>
+        <div class="col col-20"></div>
+    </div>
+
+    <div class="list">
+
+    <label class="item item-input">
+      <i class="icon ion-email placeholder-icon"></i>
+      <input type="text" placeholder="Email Address" ng-model="login.email">
+    </label>
+    <div class="divider">    
+    </div>
+    <label class="item item-input">
+      <i class="icon ion-locked placeholder-icon"></i>
+      <input type="password" placeholder="Password" ng-model="login.password">
+    </label>
+  </div>
+
+  <div class="padding">
+  <a ng-click="doLogin()" class="button button-full button-positive">Login</a>
+ <!-- <a style="color:#57788f;" class="button button-assertive button-full" href="#/users">View Users</a>
+  <a style="" class="button button-royal button-full" href="#/tab/dash">Check Dashboard</a>-->
+</div>
+
+</ion-content>
+</ion-view>

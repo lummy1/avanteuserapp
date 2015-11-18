@@ -1,0 +1,25 @@
+<ion-view cache-view="false" view-title="Latest Transactions">
+
+<ion-content class="padding">
+
+<ion-list>
+<ion-item ng-repeat="trans in transactions" ng-click="">
+<div class="jobtitle">
+	<h2>
+        {{trans.serialNo }}
+	</h2>
+</div>
+
+<p class="jdesc">N{{trans.transAmount}}</p>
+
+<span class="date-post">
+	{{trans.transDate}}
+</span>
+<span class="item-note">
+	{{trans.comment | limitTo:100}}
+</span>
+</ion-item>
+</ion-list>
+
+</ion-content>
+</ion-view>

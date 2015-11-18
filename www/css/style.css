@@ -1,0 +1,160 @@
+/* Empty. Add your own CSS if you like */
+.splash{
+ background: url(../img/skyline.jpg) no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+
+.branding {
+  width: 70%;
+  max-width: 300px;
+  margin: 0 5px 30px 0;
+  margin-top: 40px;
+  text-align: right;
+  float: right;
+}
+
+.toplogin{
+
+	margin-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+
+
+.logo {
+  width: 160px;
+  height: 80px;
+  margin-top:0px;
+  margin-bottom: 30px;
+  margin-left: 55px;
+  color:#333;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+
+}
+
+
+img.logo{
+	text-align: center;
+
+}
+
+h2.taskTitle{
+	text-align: center;
+	color: blue;
+
+}
+
+.logoapp{
+	padding-left: 50px !important;
+}
+
+.divider{
+	padding: 3px;
+}
+
+.bar-positive, .tabs-positive>.tabs {
+  background-color: #ff00ff !important;
+  border-color:  #ff00ff;
+  }/* Empty. Add your own CSS if you like */
+
+
+  .item-complex, a.item.item-complex, .item.item-complex{
+    margin-bottom: 5px;
+    border: none;
+    border-bottom: 1px solid #eee;
+    padding:0;    
+    
+  }
+
+  a.item-content{
+    padding: 16px !important;
+  }
+
+  .bodybg{
+    background: #e4dfd9;
+  }
+  .jobtitle{
+    margin-top: -6px;
+    padding-bottom: 3px;
+  }
+
+  .jobtitle h2{
+    color:#00cccc;
+    font-size: 18px;
+  }
+
+  .date-post{
+    color: #aaa;
+    font-size: 14px;
+  }
+
+  .separator-fields {
+    height: 1px;
+    background:#5264AE;
+  }
+
+  p.jdesc{
+    padding-bottom: 5px;
+  }
+
+  span.jobtitle{
+    font-size: 26px;
+    font-weight: 500;
+    font-family: "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+    line-height: 1.2;
+    padding-right: 10px;
+  }
+
+  span.itmtitle{
+   font-size: 19px;
+   
+   font-weight: 500;
+   font-family: "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+   line-height: 1.2;
+ }
+
+ span.itmdesc{
+  font-size: 15px;
+  color:#000;
+  font-family: "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+  line-height: 1.2;
+}
+
+.apply-btn{
+  font-size: 16px !important;
+  color: #fff;
+}
+
+.panelbottom{
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  
+}
+
+.loginbtns{
+  background: #e4dfd9 !important;
+}
+
+.popup-head {
+
+  background:#333 !important;
+  text-align: center;
+
+  
+}
+
+.sidemenubg{
+background:#6495ed !important;
+  text-align: center;
+}
+
+.popup-title{
+  color:#fff !important;
+}
